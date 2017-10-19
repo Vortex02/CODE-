@@ -13,12 +13,3 @@ $("#settingsGear").click(function() {
   }, 2000)
   $('.settings').toggleClass('show-settings');
 });
-
-function showHideDiv(id) {
-    var e = document.getElementById(id);
-    if(e.style.display == null || e.style.display == "none") {
-        e.style.display = "block";
-    } else {
-        e.style.display = "none";
-    }
-}
