@@ -3,9 +3,9 @@ $("#button1").click(function() {
 });
 
 $("#settingsGear").click(function() {
-  var d = document.getElementById("settingsGear");
+  $('.settings').toggleClass('show-settings');
   
-  if(d.style.display == "none") {
+  if($("#settingsGear").hasClass('show-settings')) {
     window.setTimeout(function() {
     var e = document.getElementById("settingsOption");
     e.style.display = "block";
@@ -15,5 +15,4 @@ $("#settingsGear").click(function() {
     var e = document.getElementById("settingsOption");
     e.style.display = "none";
   }
-  $('.settings').toggleClass('show-settings');
 });
