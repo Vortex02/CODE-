@@ -173,12 +173,20 @@ path {
     content: "On";
     padding-left: -1vw;
     background-color: #EEEEEE; color: #39A5DB;
+    --main-color: #000;
+    var-MainColor: #000;
+    --opposite-color: #111;
+    var-OppositeColor: #111;
 }
 .nightmode-toggle-inner:after {
     content: "Off";
     padding-right: 16px;
     background-color: #EEEEEE; color: #999999;
     text-align: right;
+    --main-color: #111;
+    var-MainColor: #111;
+    --opposite-color: #000;
+    var-OppositeColor: #000;
 }
 .nightmode-toggle-switch {
     display: block; width: 30px; margin: 0px;
