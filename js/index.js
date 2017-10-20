@@ -9,7 +9,7 @@ $("#settingsGear").click(function() {
     window.setTimeout(function() {
     var e = document.getElementById("settingsOption");
     e.style.display = "block";
-  }, 2000)
+  }, 100)
   }
   else {
     var e = document.getElementById("settingsOption");
