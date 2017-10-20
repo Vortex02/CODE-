@@ -32,8 +32,8 @@ body:hover{
   margin-top: 8px;
   background: var(--main-color);
   background: var(var-MainColor);
-  border-style: solid;
-  border-width: 0px;
+  border: 2px solid var(--opposite-color);
+  border: 2px solid var(var-OppositeColor);
   position: relative;
   z-index:1;
   
