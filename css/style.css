@@ -67,6 +67,7 @@ path {
   position: absolute;
   left: 0;
   top: 0;
+  display: block;
   -webkit-transition: -webkit-transform 2s ease-out;
   transition: transform 2s ease-out;
 }
