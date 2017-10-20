@@ -1,3 +1,4 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/_iPhoenix_/pen/NaJPYq.
+This is the repo for a school-related (using the very loosest definition of what constitutes it) project. Feel free to create PR's, if you have any new features, or issues, if you find any issues!
+Thanks!
 
- 
+- _iPhoenix_
