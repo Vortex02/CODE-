@@ -8,15 +8,12 @@ $("#settingsGear").click(function() {
   if(d.style.display == "none") {
     window.setTimeout(function() {
     var e = document.getElementById("settingsOption");
-    if(e.style.display == null || e.style.display == "none") {
-        e.style.display = "block";
-    } else {
-        e.style.display = "none";
-    }
+    e.style.display = "block";
   }, 2000)
   }
   else {
     var e = document.getElementById("settingsOption");
+    e.style.display = "none";
   }
   $('.settings').toggleClass('show-settings');
 });
