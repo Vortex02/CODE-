@@ -32,9 +32,7 @@ body:hover{
   margin-top: 8px;
   background: var(--main-color);
   background: var(var-MainColor);
-  border: 2px solid var(--opposite-color);
-  border: 2px solid var(var-OppositeColor);
-  border-width: 2vw;
+  border-width: 0.5vw;
   border-style: solid;
   border-color: var(var-OppositeColor);
   border-color: var(--opposite-color);
