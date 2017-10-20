@@ -5,7 +5,7 @@ $("#button1").click(function() {
 $("#settingsGear").click(function() {
   $('.settings').toggleClass('show-settings');
   
-  if($('settings').hasClass('show-settings')) {
+  if($('.settings').hasClass('show-settings')) {
     window.setTimeout(function() {
     var e = document.getElementById("settingsOption");
     e.style.display = "block";
