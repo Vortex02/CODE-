@@ -13,6 +13,7 @@
   color: var(--opposite-color);
   color: var(var-OppositeColor);
 }
+
 body {
     height: 100%;
     width: 100%;
@@ -32,11 +33,11 @@ body:hover{
   margin-top: 8px;
   background: var(--main-color);
   background: var(var-MainColor);
-  border-width: 2px;
   border-style: solid;
+  border-width: 1px;
   border-color: var(var-OppositeColor);
   border-color: var(--opposite-color);
-  border-radius: 2px;
+  border-radius: 1px;
   position: relative;
   z-index:1;
   
