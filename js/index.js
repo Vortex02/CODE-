@@ -6,8 +6,10 @@ $("#settingsGear").click(function() {
   $('.settings').toggleClass('show-settings');
   
   if($('.settings').hasClass('show-settings')) {
+    window.setTimeout(function() {
     var e = document.getElementById("settingsOption");
     e.style.display = "block";
+  }, 1000)
   }
   else {
     var e = document.getElementById("settingsOption");
