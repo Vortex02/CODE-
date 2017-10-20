@@ -4,8 +4,8 @@ $("#button1").click(function() {
 
 $("#settingsGear").click(function() {
   $('.settings').toggleClass('show-settings');
-  /*
-  if($("#settingsGear").hasClass('show-settings')) {
+  
+  if($('settings').hasClass('show-settings')) {
     window.setTimeout(function() {
     var e = document.getElementById("settingsOption");
     e.style.display = "block";
@@ -14,19 +14,5 @@ $("#settingsGear").click(function() {
   else {
     var e = document.getElementById("settingsOption");
     e.style.display = "none";
-  }*/
+  }
 });
-
-// duck-tape solution!
-window.setInterval(function() {
-  if($("#settingsGear").hasClass('show-settings')) {
-    window.setTimeout(function() {
-    var e = document.getElementById("settingsOption");
-    e.style.display = "block";
-  }, 2000)
-  }
-  else {
-    var e = document.getElementById("settingsOption");
-    e.style.display = "none";
-  }
-}, 500);
