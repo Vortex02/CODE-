@@ -27,8 +27,8 @@ body:hover{
 }
 
 .settings {
-  width: 2vw;
-  height: 2vw;
+  width: 2.2vw;
+  height: 2.2vw;
   margin-top: 8px;
   background: var(--main-color);
   background: var(var-MainColor);
