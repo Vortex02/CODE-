@@ -102,6 +102,7 @@ path {
      z-index:0;
 }
 
+/* the following code (until the next comment) came from an excellent w3schools tutorial :P */
 .button {
   border-radius: 4px;
   background-color: #0194D8;
@@ -146,6 +147,7 @@ path {
   z-index:1;
 }
 
+/* I didn't write the following code */
 .nightmode-toggle {
   display: block;
     position: relative; width: 90px;
@@ -194,7 +196,7 @@ path {
     background-color: #0194D8; 
 }
 
-
+/* I did actually write the following code */
 .footer {
   font-size:1vw; 
   font-family:verdana;
