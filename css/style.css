@@ -126,7 +126,7 @@ path {
   position: absolute;
   opacity: 0;
   top: 0;
-  right: -25px;
+  right: -30px;
   transition: 0.5s;
   z-index:1;
 }
