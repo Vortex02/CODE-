@@ -18,7 +18,7 @@ window.onclick = function(event) {
   if (!event.target.matches('.settings')) {
     var d = document.getElementsByClassName("settingsOption");
     
-    for (i = 0; i < d.length; i++) {
+    for (var i = 0; i < d.length; i++) {
       var di = d[i];
       if (di.style.display != "block";) {
         di.style.display = "block";
