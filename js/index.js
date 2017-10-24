@@ -1,6 +1,6 @@
 function showButtonClick() {
   $('.box').toggleClass('box-visible');
-});
+}
 
 function settingsGearClick() {
   $('.settings').toggleClass('show-settings');
