@@ -20,8 +20,8 @@ window.onclick = function(event) {
     
     for (var i = 0; i < d.length; i++) {
       var di = d[i];
-      if (di.style.display != "block";) {
-        di.style.display = "block";
+      if (di.style.display != "none";) {
+        di.style.display = "none";
       }
     }
   }
