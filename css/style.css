@@ -1,24 +1,13 @@
-:root {
-  var-MainColor: #000;
-  --main-color: #000;
-  
-  var-OppositeColor:#FFF;
-  --opposite-color: #FFF;
-}
-
-
 .title1 {
   font-size: 4vw; 
   font-family: verdana; 
-  color: var(--opposite-color);
-  color: var(var-OppositeColor);
+  color: #555;
 }
 
 body {
     height: 100%;
     width: 100%;
-    background-color: var(--main-color);
-    background-color: var(var-MainColor);
+    background-color: #454545;
     transition: all 500ms linear;
     transition-delay: 1s;
 }
@@ -84,17 +73,16 @@ path {
     display: block;
     width: 0;
     height: 0;
-    color: var(--main-color);
-    color: var(var-MainColor);
-    background: var(--main-color);
-    background: var(var-MainColor);
+    color: #555;
+    border-radius:5px;
+	  box-shadow:0 1px 5px #222 inset,0 1px 0 #666
+    background-color: #444;
     -webkit-transition: width 8s ease, height 8s ease, background-color 2s ease, -webkit-transform 2s ease-out, color 2s ease-out;
     transition: width 6s ease, height 6s ease, background-color 2s ease, transform 4s ease-out, color 2s ease-out;
   z-index:0;
 }
 
 .box-visible {
-    background-color: #fff;
     width: 100%;
     height: 34vw;
     /*-webkit-transform: rotate(360deg);
@@ -183,10 +171,6 @@ path {
     padding-right: 16px;
     background-color: #EEEEEE; color: #999999;
     text-align: right;
-    --main-color: #111;
-    var-MainColor: #111;
-    --opposite-color: #000;
-    var-OppositeColor: #000;
 }
 .nightmode-toggle-switch {
     display: block; width: 30px; margin: 0px;
@@ -208,6 +192,5 @@ path {
 .footer {
   font-size:1vw; 
   font-family:verdana;
-  color: var(--opposite-color);
-  color: var(var-OppositeColor);
+  color: #555;
 }
