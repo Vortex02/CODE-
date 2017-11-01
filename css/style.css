@@ -16,35 +16,11 @@ body:hover{
     /*background-color: #111;*/
 }
 
-.settings {
-  width: 2.2vw;
-  height: 2.2vw;
-  margin-top: 8px;
-  background: var(--main-color);
-  background: var(var-MainColor);
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(var-OppositeColor);
-  border-color: var(--opposite-color);
-  border-radius: 1px;
-  position: relative;
-  z-index:1;
-  
-  -webkit-transition: background 2s ease, width 1s linear, height 1s 1s ease-in;
-  transition: background 2s ease, width 1s linear, height 1s 1s ease-in;
-  
-}
-
-.show-settings {
-  margin-top: 8px;
-  width: 15vw;
-  height: 10vw;
-}
-
 .box {
     position: relative;
     float: left;
-    display: none;
+    display: block;
+    visibility: hidden;
     width: 0;
     height: 0;
     color: transparent;
