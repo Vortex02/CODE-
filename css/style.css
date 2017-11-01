@@ -20,7 +20,7 @@ body:hover{
     position: relative;
     float: left;
     display: block;
-    visibility: hidden;
+    overflow:hidden;
     width: 0;
     height: 0;
     color: transparent;
