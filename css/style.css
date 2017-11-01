@@ -41,40 +41,16 @@ body:hover{
   height: 10vw;
 }
 
-path {
-  fill: var(--opposite-color);
-  fill: var(var-OppositeColor);
-}
-
-.settingsGearSVG {
-  width:2vw;
-  height:2vw;
-  margin:auto;
-  padding:0;
-  vertical-align: text-top;
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: block;
-  -webkit-transition: -webkit-transform 2s ease-out;
-  transition: transform 2s ease-out;
-}
-
-.settingsGearSVG-animated {
-  -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-
 .box {
     position: relative;
     float: left;
-    display: block;
+    display: none;
     width: 0;
     height: 0;
-    color: #555;
+    color: transparent;
     border-radius:5px;
     box-shadow:0 1px 5px #222 inset,0 1px 0 #666;
-    background-color: #444;
+    background-color: #333;
     -webkit-transition: width 8s ease, height 8s ease, background-color 2s ease, -webkit-transform 2s ease-out, color 2s ease-out;
     transition: width 6s ease, height 6s ease, background-color 2s ease, transform 4s ease-out, color 2s ease-out;
     z-index:0;
@@ -83,12 +59,12 @@ path {
 .box-visible {
     width: 100%;
     height: 34vw;
-    /*-webkit-transform: rotate(360deg);
-    transform: rotate(360deg);*/
     z-index:0;
+    color: #555;
+    display: block;
 }
 
-/* the following code (until the next comment) came from an excellent w3schools tutorial :P */
+/* the following code (until the next comment) came from an excellent w3schools tutorial, but I edited it a lot to fit my needs. */
 .button {
   border-radius: 4px;
   background-color: #0194D8;
@@ -131,59 +107,6 @@ path {
   opacity: 1;
   right: 0;
   z-index:1;
-}
-
-/* I didn't write the following code */
-.nightmode-toggle {
-  display: block;
-    position: relative; width: 90px;
-    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
-}
-.nightmode-toggle-checkbox {
-    display: none;
-}
-.nightmode-toggle-label {
-    display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #000000; border-radius: 50px;
-}
-.nightmode-toggle-inner {
-    display: block; width: 200%; margin-left: -100%;
-    transition: margin 0.3s ease-in 0s;
-}
-.nightmode-toggle-inner:before, .nightmode-toggle-inner:after {
-    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 14px; color: white; font-family: verdana; font-weight: bold;
-    box-sizing: border-box;
-}
-.nightmode-toggle-inner:before {
-    content: "On";
-    padding-left: -1vw;
-    background-color: #EEEEEE; color: #39A5DB;
-    --main-color: #000;
-    var-MainColor: #000;
-    --opposite-color: #111;
-    var-OppositeColor: #111;
-}
-.nightmode-toggle-inner:after {
-    content: "Off";
-    padding-right: 16px;
-    background-color: #EEEEEE; color: #999999;
-    text-align: right;
-}
-.nightmode-toggle-switch {
-    display: block; width: 30px; margin: 0px;
-    background: #A1A1A1;
-    position: absolute; top: 0; bottom: 0;
-    right: 56px;
-    border: 2px solid #000000; border-radius: 50px;
-    transition: all 0.3s ease-in 0s; 
-}
-.nightmode-toggle-checkbox:checked + .nightmode-toggle-label .nightmode-toggle-inner {
-    margin-left: 0;
-}
-.nightmode-toggle-checkbox:checked + .nightmode-toggle-label .nightmode-toggle-switch {
-    right: 0px; 
-    background-color: #0194D8; 
 }
 
 /* I did actually write the following code */
