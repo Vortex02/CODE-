@@ -3,6 +3,11 @@
   font-family: verdana; 
   color: #555;
 }
+.title2 {
+  font-size: 4vw; 
+  font-family: verdana; 
+  color: #444;
+}
 
 body {
     height: 100%;
@@ -39,6 +44,18 @@ body:hover{
     color: #555;
     display: block;
 }
+
+/* calendar formatting */
+table, th, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    color: #555;
+}
+
+th, td {
+    padding: 15px;
+}
+
 
 /* the following code (until the next comment) came from an excellent w3schools tutorial, but I edited it a lot to fit my needs. */
 .button {
